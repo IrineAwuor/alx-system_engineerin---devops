@@ -6,22 +6,22 @@ while [ $COUNTER -lt 21 ]
 do
 	case $COUNTER in
 
-	    4)
+	4)		
 		echo $COUNTER
 		echo "bad luck from China"
 		;;
 
-	    9)
+	9)
 		echo $COUNTER
 		echo "bad luck from Japan"
 		;;
 
-	   17)
+	17)
 		echo $COUNTER
 		echo "bad luck from Italy"
 		;;
 
-	    *)
+	*)
 		echo $COUNTER
 		;;
 
